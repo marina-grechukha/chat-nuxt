@@ -5,7 +5,10 @@
 <script>
 
 export default {
-  components: {
+  sockets: {
+    connect() {
+      console.log("Client IO connected")
+    }
 
   }
 }
